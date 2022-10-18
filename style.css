@@ -1,0 +1,187 @@
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-color: rgb(222, 190, 252);
+    box-sizing: border-box;
+}
+
+h3 {
+    background-color: rgb(186, 118, 250);
+
+}
+
+.Sentense {
+    background-color: rgb(186, 118, 250);
+    position: relative;
+    text-align: center;
+    font-size: medium;
+    margin: 30px 150px;
+    padding: 25px 10px;
+    border: 2px solid black;
+
+}
+
+.CardTable {
+    background-color: rgb(186, 118, 250);
+    border: 2px solid black;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    right: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    margin: 15px;
+}
+
+
+.CardTableItems {
+    background-color: rgb(186, 118, 250);
+    margin: 10px;
+}
+
+.CardTableItems div {
+    border: 2px solid black;
+    padding: 30px 15px;
+    display: inline-block;
+}
+
+.MyCards {
+    background-color: rgb(186, 118, 250);
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;;
+    right: 50%;
+    transform: translate(50%, -0%);
+    margin-bottom: 20px;
+}
+
+.MyCardTableItems {
+    background-color: rgb(186, 118, 250);
+    padding: 15px 15px 10px 15px;
+}
+
+.MyCardTableItems div {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 20px 20px;
+}
+
+.PlayersTable {
+
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    padding: 5px;
+    margin: 10px;
+}
+
+.PlayersTable table {
+    border: 2px solid black; /* стиль рамки */
+    border-collapse: collapse ; /* убирание задвоенности рамки */
+}
+
+.PlayersTable th, td {
+    background-color: rgb(186, 118, 250);
+    border-collapse: collapse ; /* убирание задвоенности рамки */
+    text-align: center;
+    border: 2px solid black;
+    padding: 15px 10px;
+}
+
+#animation {
+    display:inline-block;
+    position: relative;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+#animation:hover {
+    /* z-index: 2; */
+    /* transition: all 200ms ease-in; */
+    /* transform: scale(1.5) rotate(90deg); */
+    /* background-color: rgb(164, 66, 255); */
+}
+.why { 
+    z-index: 3;
+    background-color: rgb(222, 190, 252);
+    border: 2px solid black;
+    text-align: center;
+    padding: 12px;
+    display: inline-block;
+    position: absolute;
+    left: 20%;
+    bottom: 32px;
+    transition: bottom 2s ease 0s, left 4s ease 0s, 1.97s padding ease, 2s border-radius ease;
+    /* transition: ; */
+    
+}
+.anim {
+    /* bottom: 50%; */
+    left: 50%;
+    bottom: 45%!important;
+    /* transform: to; */
+    /* background-color: #421421; */
+}
+.bot {
+    z-index: 9;
+    background-color: rgb(222, 190, 252);
+    border: 2px solid black;
+    text-align: center;
+    padding: 12px;
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    /* margin: 5px; */
+    margin-left: 5px;
+    border-radius: 0;
+    transition: 2s opacity ease, 3.5s left ease, 3.5s bottom linear, 1.8s padding ease, 1.7s border-radius ease;
+    opacity: 0;
+}
+
+
+.why0, .why1,.why2,.why3 {
+    opacity: 1;
+}
+.why0 {
+    bottom: 49%;
+}
+.why1 {
+    bottom: 43%;
+}
+.why2 {
+    bottom: 37%;
+    margin-bottom: 3px;
+}
+.why3 {
+    bottom: 31%;
+    margin-bottom: 5px;
+}
+.what0 {
+    bottom: 47%;
+    left: 57%;
+}
+.what1 {
+    bottom: 45%;
+    left: 45%;
+}
+.what2 {
+    bottom: 50%;
+    left: 51%;
+}
+.what3 {
+    left: 54%;
+    bottom: 41%;
+}
+.magicBox {
+    padding: 17px;
+    /* width: 50px; */
+    /* height: 50px; */
+    border: 1px solid black;
+    background-color: rgb(186, 118, 250);
+    border-radius: 100%;
+
+}
